@@ -1,3 +1,5 @@
+//https://school.programmers.co.kr/learn/courses/30/lessons/42862
+//체육복 
 import java.util.HashSet;
 public class Test4 {
     public int solution(int n, int[] lost, int[] reserve){
