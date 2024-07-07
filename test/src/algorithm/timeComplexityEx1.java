@@ -1,6 +1,6 @@
 package algorithm;
 
-public class timeComplexityEx1 {
+public class TimeComplexityEx1 {
     public static void main(String[] args) {
         //1~100 사이 값 랜덤 선택
         int findNumber = (int)(Math.random()*100)+1;

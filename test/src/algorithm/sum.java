@@ -1,8 +1,9 @@
+//숫자의 합 구하기
 package algorithm;
 
 import java.util.Scanner;
 
-public class sum {
+public class Sum {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
@@ -15,6 +16,6 @@ public class sum {
             sum += cNum[i] - '0';
         }
         System.out.println(sum);
-
+ 
     }
 }
