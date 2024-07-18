@@ -15,6 +15,8 @@ public class P10811_바구니바꾸기 {
         for(int i=0;i<M;i++){
             int S = sc.nextInt();
             int E = sc.nextInt();
+ 
+            //바구니 범위만큼 반전
             int[] temp = new int[E-S+1];
             int index = 0;
             for(int j=E;j>=S;j--){
