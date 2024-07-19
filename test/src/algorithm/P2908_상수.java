@@ -10,7 +10,7 @@ public class P2908_상수 {
         int B = sc.nextInt();
 
         A = Integer.parseInt(new StringBuilder().append(A).reverse().toString());
-		B = Integer.parseInt(new StringBuilder().append(B).reverse().toString());
+        B = Integer.parseInt(new StringBuilder().append(B).reverse().toString());
 
         System.out.println(A > B ? A : B);
     }
