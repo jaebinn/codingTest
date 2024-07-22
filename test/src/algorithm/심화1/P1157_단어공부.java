@@ -20,7 +20,7 @@ public class P1157_단어공부 {
         List<Character> UppercaseList = arrList.stream()
                 .map(c -> (c >= 'a' && c <= 'z') ? (char) (c - 32) : c)
                 .collect(Collectors.toList());
-
+        
         Set<Character> freqSet = new HashSet<Character>(UppercaseList);
 
         Character mostFrequentChar = null;
