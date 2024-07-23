@@ -18,3 +18,12 @@ map 함수는 각 요소를 변환하는 작업을 수행합니다.
 .collect(Collectors.toList()):
 
 map 함수로 변환된 Stream의 요소들을 다시 List로 수집합니다. 이로 인해 모든 문자가 대문자로 변환된 리스트가 만들어집니다.
+
+**##정렬 Comparator**
+기본 정렬 기준과 다른 새로운 정렬 기준을 세워야 한다. 이 때 이용되는 것이 바로 Comparator를 사용한다.
+만약, 나이순으로 정렬 후 나이가 같을 시 index로 정렬하고싶다?
+
+memberList.sort(Comparator.comparingInt(Member::getAge)
+                .thenComparingInt(Member::getIndex));
+
+Member 클래스 선언 후 필요한 getter를 가져와서 정렬
