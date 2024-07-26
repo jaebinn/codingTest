@@ -53,5 +53,6 @@ public class P1874_스택수열 {
         
         // 수열을 만들 수 있으면 결과 출력
         if(result) System.out.println(bf.toString());
+
     }
 }
