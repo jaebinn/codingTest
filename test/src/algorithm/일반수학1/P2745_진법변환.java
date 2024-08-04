@@ -3,7 +3,7 @@ package algorithm.일반수학1;
 import java.util.Scanner;
 
 public class P2745_진법변환 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         Scanner sc = new Scanner(System.in);
         String n = sc.next();
         int b = sc.nextInt();
